@@ -1,0 +1,88 @@
+.back-card {
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+.pod {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png');
+    padding: 15px;
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    color: white;
+}
+
+.cards {
+    padding: 30px;
+    width: 100vw;
+    height: 30vh;
+    background-size: cover;
+}
+
+.card-n {
+    margin: 20px;
+    text-align: center;
+}
+
+.img {
+    height: 18vh;
+    width: 35vw;
+}
+
+.head-2 {
+    color: #151765;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.para {
+    color: #5a7184;
+    font-size: 16px;
+}
+
+.top-card {
+    background-color: #151765;
+    background-size: cover;
+    height: 22vh;
+    padding: 20px;
+    color: white;
+}
+
+.bottom-card {
+    margin: 20px;
+
+}
+
+.img-2 {
+    height: 17vh;
+    width: 30vw;
+    margin-right: 10px;
+}
+
+.sec-head {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.sec-para-2 {
+    font-size: 17px;
+    color: #5a7184;
+}
+
+.sec-para-3 {
+    font-size: 12px;
+    color: #151765;
+}
+
+.button {
+    background-color: #151765;
+    border-radius: 15px;
+    border-width: 0px;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.text-Align {
+    text-align: right;
+}
