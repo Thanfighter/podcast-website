@@ -41,11 +41,18 @@
                 <p class="para">49 Episodes</p>
             </div>
         </div>
-           <button  class="button" onclick="document.getElementById('bg-music').play()">Play Background Music</button>
-
-<audio id="bg-music" loop>
+          <audio id="bg-music" autoplay muted loop>
   <source src="AUD-20241117-WA0110.mp3" type="audio/mpeg">
 </audio>
+
+<script>
+  const audio = document.getElementById("bg-music");
+  window.addEventListener("click", () => {
+    audio.muted = false;
+    audio.volume = 0.5;
+    audio.play();
+  });
+</script>
     </div>
 
     <div id="section1" class="back-card ">
