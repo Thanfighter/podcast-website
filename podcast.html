@@ -47,11 +47,18 @@
 
 <script>
   const audio = document.getElementById("bg-music");
-  window.addEventListener("click", () => {
+
+  function enableMusic() {
     audio.muted = false;
     audio.volume = 0.5;
     audio.play();
-  });
+    // Remove listeners after first swipe
+    window.removeEventListener('touchstart', enableMusic);
+    window.removeEventListener('touchmove', enableMusic);
+  }
+
+  window.addEventListener('touchstart', enableMusic);
+  window.addEventListener('touchmove', enableMusic);
 </script>
     </div>
 
